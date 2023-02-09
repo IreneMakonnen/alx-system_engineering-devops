@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -am -p -ql 
+ls -a -m -p -ql 
