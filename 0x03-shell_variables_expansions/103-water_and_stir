@@ -1,0 +1,2 @@
+#!/bin/bash
+tr WATER 01234 | tr STIR 5678 | echo $((5#$(WATER + STIR))) | printf "%\0"
