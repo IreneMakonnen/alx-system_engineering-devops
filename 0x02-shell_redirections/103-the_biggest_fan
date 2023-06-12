@@ -1,2 +1,2 @@
 #!/bin/bash
-
+awk '{ host[$1]++ } END { for (h in host) print h }' | sort | uniq -c | sort -nr | head -n 11
